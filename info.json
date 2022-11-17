@@ -15,6 +15,13 @@
 
         },
         "Frozen":{
+            "Nombre":"Frozen",
+            "Modelo":"Sin ruedas",
+            "precio": 75,
+            "Descripcion": "Mochila escolar de 23x60x15 cm, material de poliester"
+
+        },
+        "Frozen ruedas":{
             "Nombre":"Frozen con ruedas",
             "Modelo":"Con ruedas",
             "precio": 180,
