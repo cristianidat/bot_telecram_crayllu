@@ -1,27 +1,27 @@
 {
     "mochilas":{
-        "Spiderman ruedas":{
+        "spiderman ruedas":{
             "Nombre":"Spiderman con ruedas",
             "Modelo":"Con ruedas",
             "precio": 180,
             "Descripcion": "Mochila escolar de 23x60x15 cm, material de poliester"
 
         },
-        "Spiderman":{
+        "spiderman":{
             "Nombre":"Spiderman",
             "Modelo":"Sin ruedas",
             "precio": 90,
             "Descripcion": "Mochila escolar de 23x60x15 cm, material de poliester"
 
         },
-        "Frozen":{
+        "frozen":{
             "Nombre":"Frozen",
             "Modelo":"Sin ruedas",
             "precio": 75,
             "Descripcion": "Mochila escolar de 23x60x15 cm, material de poliester"
 
         },
-        "Frozen ruedas":{
+        "frozen ruedas":{
             "Nombre":"Frozen con ruedas",
             "Modelo":"Con ruedas",
             "precio": 180,
@@ -31,7 +31,7 @@
 
     },
     "carteras":{
-        "Cartera 3 en 1":{
+        "cartera 3 en 1":{
             "Nombre":"Carter 3 en 1",
             "Modelo":"Cuero",
             "precio": 90,
@@ -39,8 +39,8 @@
 
         }
     },
-    "Juguetes":{
-        "Robot":{
+    "juguetes":{
+        "robot":{
             "Nombre":"Robot bailarin",
             "Modelo":"Juguete a pilas",
             "precio": 45,
