@@ -15,7 +15,7 @@ with open("imagenes.json") as imagen:
 indice=list(datos.keys())
 indice_mochilas=list(datos["mochilas"].keys())
 indice_carteras=list(datos["carteras"].keys())
-indice_juguetes=list(datos["Juguetes"].keys())
+indice_juguetes=list(datos["juguetes"].keys())
 
 def start(update: Updater,context: CallbackContext): #Comando para dar inicio a las instruciones. 
     #context.bot.send_message(chat_id=update.effective_chat.id, text=yaml.dump(datos, sort_keys=False, default_flow_style=False))
@@ -48,10 +48,11 @@ def echo(update: Update, context: CallbackContext):
         #indice=list(datos.keys())
         
         messegae_text=update.message.text
-        url=img[messegae_text]
+        new_messege_text=messegae_text.lower()
+        url=img[new_messege_text]
         for i in datos:
                 for a in datos[i]:
-                        if messegae_text==a:
+                        if new_messege_text==a:
                                 cadena=datos[i][a]
                                 context.bot.send_photo(chat_id=update.effective_chat.id, photo=url,
                                  caption=yaml.dump(cadena, sort_keys=False, default_flow_style=False) )
